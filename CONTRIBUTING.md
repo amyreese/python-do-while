@@ -1,4 +1,4 @@
-# Contributing to PROJECT_NAME
+# Contributing to do-while
 
 ## Setup
 

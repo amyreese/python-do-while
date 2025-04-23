@@ -1,16 +1,16 @@
-# PROJECT_NAME
+# do-while
 
-PROJECT_DESCRIPTION
+making poor life choices for conference talks
 
-[![version](https://img.shields.io/pypi/v/PACKAGE_NORMALIZED.svg)](https://pypi.org/project/PACKAGE_NORMALIZED)
-[![license](https://img.shields.io/pypi/l/PACKAGE_NORMALIZED.svg)](https://github.com/GITHUB_USERNAME/GITHUB_PROJECT/blob/main/LICENSE)
+[![version](https://img.shields.io/pypi/v/do-while.svg)](https://pypi.org/project/do-while)
+[![license](https://img.shields.io/pypi/l/do-while.svg)](https://github.com/amyreese/python-do-while/blob/main/LICENSE)
 
 
 Install
 -------
 
 ```shell-session
-$ pip install PACKAGE_NORMALIZED
+$ pip install do-while
 ```
 
 
@@ -18,11 +18,11 @@ Usage
 -----
 
 ```py
-import PACKAGE_NAME
+import do_while
 ```
 
 
 License
 -------
 
-PROJECT_NAME is copyright AUTHOR_NAME, and licensed under the MIT license.
+do-while is copyright Amethyst Reese, and licensed under the MIT license.
