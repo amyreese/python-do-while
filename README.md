@@ -17,8 +17,43 @@ $ pip install do-while
 Usage
 -----
 
+Do a do-while loop:
+
 ```py
-import do_while
+from do_while import do, while_
+
+queue = [1, 2, 3]
+
+@do
+def loop():
+    item = queue.pop()
+    print(item)
+
+while_(queue)
+
+# 1
+# 2
+# 3
+```
+
+Do an until loop:
+
+```py
+from do_while import until
+
+k = 0
+
+@until(lambda: k > 4)
+def loop():
+    nonlocal k
+    print(k)
+    k += 1
+
+# 0
+# 1
+# 2
+# 3
+# 4
 ```
 
 

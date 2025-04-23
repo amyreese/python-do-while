@@ -1,5 +1,5 @@
 [build-system]
-requires = ["flit_core >=3.6,<4"]
+requires = ["flit_core >=3.11,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
@@ -8,9 +8,10 @@ readme = "README.md"
 authors = [
     {name="Amethyst Reese", email="amethyst@n7.gg"},
 ]
-license = {file="LICENSE"}
+license = "MIT"
+license-files = ["LICENSE"]
 dynamic = ["version", "description"]
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 dependencies = []
 
 [project.optional-dependencies]
@@ -23,9 +24,6 @@ dev = [
     "ufmt==2.7.2",
     "usort==1.0.8",
 ]
-
-[project.scripts]
-do-while = "do_while.__main__:main"
 
 [project.urls]
 Home = "https://github.com/amyreese/python-do-while"
